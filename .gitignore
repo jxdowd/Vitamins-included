@@ -1,5 +1,6 @@
-*bak*
-*~lock*
+# =========================
+# Operating System Files
+# =========================
 
 # =========================
 # macOS System Files
@@ -55,7 +56,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# =========================
-# Operating System Files
-# =========================
