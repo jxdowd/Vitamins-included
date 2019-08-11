@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -37,7 +37,7 @@ F 3 "" H 2550 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 8Bit-MCU:ATMega32U4 U2
+L vitamins_included-rescue:ATMega32U4-8Bit-MCU U2
 U 1 1 5A0E298E
 P 3425 1550
 AR Path="/5A0E298E" Ref="U2"  Part="1" 
@@ -144,10 +144,109 @@ F 3 "" H 1550 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D13
+L Device:D_x2_KCom_AAK D16
 U 1 1 5A17DCC9
+P 6900 1050
+F 0 "D16" H 6900 1266 50  0000 C CNN
+F 1 "BAV70" H 6900 1175 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 1050 50  0001 C CNN
+F 3 "" H 6900 1050 50  0001 C CNN
+	1    6900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5A17DCD0
+P 6400 1050
+F 0 "SW31" H 6400 1335 50  0000 C CNN
+F 1 "Socket" H 6400 1244 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 6400 1250 50  0001 C CNN
+F 3 "" H 6400 1250 50  0001 C CNN
+	1    6400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D17
+U 1 1 5A17DCDD
+P 8500 1050
+F 0 "D17" H 8500 1266 50  0000 C CNN
+F 1 "BAV70" H 8500 1175 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8500 1050 50  0001 C CNN
+F 3 "" H 8500 1050 50  0001 C CNN
+	1    8500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D18
+U 1 1 5A17DCE9
+P 10100 1050
+F 0 "D18" H 10100 1266 50  0000 C CNN
+F 1 "BAV70" H 10100 1175 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 10100 1050 50  0001 C CNN
+F 3 "" H 10100 1050 50  0001 C CNN
+	1    10100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5A17DCF7
+P 7400 1050
+F 0 "SW32" H 7400 1335 50  0000 C CNN
+F 1 "Socket" H 7400 1244 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 7400 1250 50  0001 C CNN
+F 3 "" H 7400 1250 50  0001 C CNN
+	1    7400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5A17DCFE
+P 8000 1050
+F 0 "SW33" H 8000 1335 50  0000 C CNN
+F 1 "Socket" H 8000 1244 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 8000 1250 50  0001 C CNN
+F 3 "" H 8000 1250 50  0001 C CNN
+	1    8000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5A17DD05
+P 9000 1050
+F 0 "SW34" H 9000 1335 50  0000 C CNN
+F 1 "Socket" H 9000 1244 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 9000 1250 50  0001 C CNN
+F 3 "" H 9000 1250 50  0001 C CNN
+	1    9000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5A17DD0C
+P 9600 1050
+F 0 "SW35" H 9600 1335 50  0000 C CNN
+F 1 "Socket" H 9600 1244 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 9600 1250 50  0001 C CNN
+F 3 "" H 9600 1250 50  0001 C CNN
+	1    9600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5A17DD13
+P 10600 1050
+F 0 "SW36" H 10600 1335 50  0000 C CNN
+F 1 "Socket" H 10600 1244 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 10600 1250 50  0001 C CNN
+F 3 "" H 10600 1250 50  0001 C CNN
+	1    10600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D19
+U 1 1 5A17DD1A
 P 6900 1700
-F 0 "D13" H 6900 1916 50  0000 C CNN
+F 0 "D19" H 6900 1916 50  0000 C CNN
 F 1 "BAV70" H 6900 1825 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 1700 50  0001 C CNN
 F 3 "" H 6900 1700 50  0001 C CNN
@@ -155,10 +254,10 @@ F 3 "" H 6900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW25
-U 1 1 5A17DCD0
+L Switch:SW_Push SW37
+U 1 1 5A17DD21
 P 6400 1700
-F 0 "SW25" H 6400 1985 50  0000 C CNN
+F 0 "SW37" H 6400 1985 50  0000 C CNN
 F 1 "Socket" H 6400 1894 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 6400 1900 50  0001 C CNN
 F 3 "" H 6400 1900 50  0001 C CNN
@@ -166,10 +265,10 @@ F 3 "" H 6400 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D14
-U 1 1 5A17DCDD
+L Device:D_x2_KCom_AAK D20
+U 1 1 5A17DD2C
 P 8500 1700
-F 0 "D14" H 8500 1916 50  0000 C CNN
+F 0 "D20" H 8500 1916 50  0000 C CNN
 F 1 "BAV70" H 8500 1825 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8500 1700 50  0001 C CNN
 F 3 "" H 8500 1700 50  0001 C CNN
@@ -177,10 +276,10 @@ F 3 "" H 8500 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D15
-U 1 1 5A17DCE9
+L Device:D_x2_KCom_AAK D21
+U 1 1 5A17DD36
 P 10100 1700
-F 0 "D15" H 10100 1916 50  0000 C CNN
+F 0 "D21" H 10100 1916 50  0000 C CNN
 F 1 "BAV70" H 10100 1825 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 10100 1700 50  0001 C CNN
 F 3 "" H 10100 1700 50  0001 C CNN
@@ -188,10 +287,10 @@ F 3 "" H 10100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW26
-U 1 1 5A17DCF7
+L Switch:SW_Push SW38
+U 1 1 5A17DD42
 P 7400 1700
-F 0 "SW26" H 7400 1985 50  0000 C CNN
+F 0 "SW38" H 7400 1985 50  0000 C CNN
 F 1 "Socket" H 7400 1894 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 7400 1900 50  0001 C CNN
 F 3 "" H 7400 1900 50  0001 C CNN
@@ -199,10 +298,10 @@ F 3 "" H 7400 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW27
-U 1 1 5A17DCFE
+L Switch:SW_Push SW39
+U 1 1 5A17DD49
 P 8000 1700
-F 0 "SW27" H 8000 1985 50  0000 C CNN
+F 0 "SW39" H 8000 1985 50  0000 C CNN
 F 1 "Socket" H 8000 1894 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 8000 1900 50  0001 C CNN
 F 3 "" H 8000 1900 50  0001 C CNN
@@ -210,10 +309,10 @@ F 3 "" H 8000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW28
-U 1 1 5A17DD05
+L Switch:SW_Push SW40
+U 1 1 5A17DD50
 P 9000 1700
-F 0 "SW28" H 9000 1985 50  0000 C CNN
+F 0 "SW40" H 9000 1985 50  0000 C CNN
 F 1 "Socket" H 9000 1894 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 9000 1900 50  0001 C CNN
 F 3 "" H 9000 1900 50  0001 C CNN
@@ -221,10 +320,10 @@ F 3 "" H 9000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW29
-U 1 1 5A17DD0C
+L Switch:SW_Push SW41
+U 1 1 5A17DD57
 P 9600 1700
-F 0 "SW29" H 9600 1985 50  0000 C CNN
+F 0 "SW41" H 9600 1985 50  0000 C CNN
 F 1 "Socket" H 9600 1894 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 9600 1900 50  0001 C CNN
 F 3 "" H 9600 1900 50  0001 C CNN
@@ -232,10 +331,10 @@ F 3 "" H 9600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW30
-U 1 1 5A17DD13
+L Switch:SW_Push SW42
+U 1 1 5A17DD5E
 P 10600 1700
-F 0 "SW30" H 10600 1985 50  0000 C CNN
+F 0 "SW42" H 10600 1985 50  0000 C CNN
 F 1 "Socket" H 10600 1894 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 10600 1900 50  0001 C CNN
 F 3 "" H 10600 1900 50  0001 C CNN
@@ -243,10 +342,10 @@ F 3 "" H 10600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D16
-U 1 1 5A17DD1A
+L Device:D_x2_KCom_AAK D22
+U 1 1 5A17DD65
 P 6900 2350
-F 0 "D16" H 6900 2566 50  0000 C CNN
+F 0 "D22" H 6900 2566 50  0000 C CNN
 F 1 "BAV70" H 6900 2475 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 2350 50  0001 C CNN
 F 3 "" H 6900 2350 50  0001 C CNN
@@ -254,10 +353,10 @@ F 3 "" H 6900 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW31
-U 1 1 5A17DD21
+L Switch:SW_Push SW43
+U 1 1 5A17DD6C
 P 6400 2350
-F 0 "SW31" H 6400 2635 50  0000 C CNN
+F 0 "SW43" H 6400 2635 50  0000 C CNN
 F 1 "Socket" H 6400 2544 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 6400 2550 50  0001 C CNN
 F 3 "" H 6400 2550 50  0001 C CNN
@@ -265,10 +364,10 @@ F 3 "" H 6400 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D17
-U 1 1 5A17DD2C
+L Device:D_x2_KCom_AAK D23
+U 1 1 5A17DD77
 P 8500 2350
-F 0 "D17" H 8500 2566 50  0000 C CNN
+F 0 "D23" H 8500 2566 50  0000 C CNN
 F 1 "BAV70" H 8500 2475 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8500 2350 50  0001 C CNN
 F 3 "" H 8500 2350 50  0001 C CNN
@@ -276,10 +375,10 @@ F 3 "" H 8500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D18
-U 1 1 5A17DD36
+L Device:D_x2_KCom_AAK D24
+U 1 1 5A17DD81
 P 10100 2350
-F 0 "D18" H 10100 2566 50  0000 C CNN
+F 0 "D24" H 10100 2566 50  0000 C CNN
 F 1 "BAV70" H 10100 2475 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 10100 2350 50  0001 C CNN
 F 3 "" H 10100 2350 50  0001 C CNN
@@ -287,10 +386,10 @@ F 3 "" H 10100 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW32
-U 1 1 5A17DD42
+L Switch:SW_Push SW44
+U 1 1 5A17DD8D
 P 7400 2350
-F 0 "SW32" H 7400 2635 50  0000 C CNN
+F 0 "SW44" H 7400 2635 50  0000 C CNN
 F 1 "Socket" H 7400 2544 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 7400 2550 50  0001 C CNN
 F 3 "" H 7400 2550 50  0001 C CNN
@@ -298,21 +397,10 @@ F 3 "" H 7400 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW33
-U 1 1 5A17DD49
-P 8000 2350
-F 0 "SW33" H 8000 2635 50  0000 C CNN
-F 1 "Socket" H 8000 2544 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 8000 2550 50  0001 C CNN
-F 3 "" H 8000 2550 50  0001 C CNN
-	1    8000 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW34
-U 1 1 5A17DD50
+L Switch:SW_Push SW46
+U 1 1 5A17DD9B
 P 9000 2350
-F 0 "SW34" H 9000 2635 50  0000 C CNN
+F 0 "SW46" H 9000 2635 50  0000 C CNN
 F 1 "Socket" H 9000 2544 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 9000 2550 50  0001 C CNN
 F 3 "" H 9000 2550 50  0001 C CNN
@@ -320,10 +408,10 @@ F 3 "" H 9000 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW35
-U 1 1 5A17DD57
+L Switch:SW_Push SW47
+U 1 1 5A17DDA2
 P 9600 2350
-F 0 "SW35" H 9600 2635 50  0000 C CNN
+F 0 "SW47" H 9600 2635 50  0000 C CNN
 F 1 "Socket" H 9600 2544 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 9600 2550 50  0001 C CNN
 F 3 "" H 9600 2550 50  0001 C CNN
@@ -331,10 +419,10 @@ F 3 "" H 9600 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW36
-U 1 1 5A17DD5E
+L Switch:SW_Push SW48
+U 1 1 5A17DDA9
 P 10600 2350
-F 0 "SW36" H 10600 2635 50  0000 C CNN
+F 0 "SW48" H 10600 2635 50  0000 C CNN
 F 1 "Socket" H 10600 2544 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 10600 2550 50  0001 C CNN
 F 3 "" H 10600 2550 50  0001 C CNN
@@ -342,10 +430,10 @@ F 3 "" H 10600 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D19
-U 1 1 5A17DD65
+L Device:D_x2_KCom_AAK D25
+U 1 1 5A17DDB0
 P 6900 3000
-F 0 "D19" H 6900 3216 50  0000 C CNN
+F 0 "D25" H 6900 3216 50  0000 C CNN
 F 1 "BAV70" H 6900 3125 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 3000 50  0001 C CNN
 F 3 "" H 6900 3000 50  0001 C CNN
@@ -353,10 +441,10 @@ F 3 "" H 6900 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW37
-U 1 1 5A17DD6C
+L Switch:SW_Push SW49
+U 1 1 5A17DDB7
 P 6400 3000
-F 0 "SW37" H 6400 3285 50  0000 C CNN
+F 0 "SW49" H 6400 3285 50  0000 C CNN
 F 1 "Socket" H 6400 3194 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 6400 3200 50  0001 C CNN
 F 3 "" H 6400 3200 50  0001 C CNN
@@ -364,10 +452,10 @@ F 3 "" H 6400 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D20
-U 1 1 5A17DD77
+L Device:D_x2_KCom_AAK D26
+U 1 1 5A17DDC2
 P 8500 3000
-F 0 "D20" H 8500 3216 50  0000 C CNN
+F 0 "D26" H 8500 3216 50  0000 C CNN
 F 1 "BAV70" H 8500 3125 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8500 3000 50  0001 C CNN
 F 3 "" H 8500 3000 50  0001 C CNN
@@ -375,10 +463,10 @@ F 3 "" H 8500 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D21
-U 1 1 5A17DD81
+L Device:D_x2_KCom_AAK D27
+U 1 1 5A17DDCC
 P 10100 3000
-F 0 "D21" H 10100 3216 50  0000 C CNN
+F 0 "D27" H 10100 3216 50  0000 C CNN
 F 1 "BAV70" H 10100 3125 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 10100 3000 50  0001 C CNN
 F 3 "" H 10100 3000 50  0001 C CNN
@@ -386,21 +474,10 @@ F 3 "" H 10100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW38
-U 1 1 5A17DD8D
-P 7400 3000
-F 0 "SW38" H 7400 3285 50  0000 C CNN
-F 1 "Socket" H 7400 3194 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 7400 3200 50  0001 C CNN
-F 3 "" H 7400 3200 50  0001 C CNN
-	1    7400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW39
-U 1 1 5A17DD94
+L Switch:SW_Push SW51
+U 1 1 5A17DDDF
 P 8000 3000
-F 0 "SW39" H 8000 3285 50  0000 C CNN
+F 0 "SW51" H 8000 3285 50  0000 C CNN
 F 1 "Socket" H 8000 3194 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 8000 3200 50  0001 C CNN
 F 3 "" H 8000 3200 50  0001 C CNN
@@ -408,10 +485,10 @@ F 3 "" H 8000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW40
-U 1 1 5A17DD9B
+L Switch:SW_Push SW52
+U 1 1 5A17DDE6
 P 9000 3000
-F 0 "SW40" H 9000 3285 50  0000 C CNN
+F 0 "SW52" H 9000 3285 50  0000 C CNN
 F 1 "Socket" H 9000 3194 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 9000 3200 50  0001 C CNN
 F 3 "" H 9000 3200 50  0001 C CNN
@@ -419,10 +496,10 @@ F 3 "" H 9000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW41
-U 1 1 5A17DDA2
+L Switch:SW_Push SW53
+U 1 1 5A17DDED
 P 9600 3000
-F 0 "SW41" H 9600 3285 50  0000 C CNN
+F 0 "SW53" H 9600 3285 50  0000 C CNN
 F 1 "Socket" H 9600 3194 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 9600 3200 50  0001 C CNN
 F 3 "" H 9600 3200 50  0001 C CNN
@@ -430,113 +507,14 @@ F 3 "" H 9600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW42
-U 1 1 5A17DDA9
+L Switch:SW_Push SW54
+U 1 1 5A17DDF4
 P 10600 3000
-F 0 "SW42" H 10600 3285 50  0000 C CNN
+F 0 "SW54" H 10600 3285 50  0000 C CNN
 F 1 "Socket" H 10600 3194 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 10600 3200 50  0001 C CNN
 F 3 "" H 10600 3200 50  0001 C CNN
 	1    10600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_x2_KCom_AAK D22
-U 1 1 5A17DDB0
-P 6900 3650
-F 0 "D22" H 6900 3866 50  0000 C CNN
-F 1 "BAV70" H 6900 3775 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 3650 50  0001 C CNN
-F 3 "" H 6900 3650 50  0001 C CNN
-	1    6900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW43
-U 1 1 5A17DDB7
-P 6400 3650
-F 0 "SW43" H 6400 3935 50  0000 C CNN
-F 1 "Socket" H 6400 3844 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 6400 3850 50  0001 C CNN
-F 3 "" H 6400 3850 50  0001 C CNN
-	1    6400 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_x2_KCom_AAK D23
-U 1 1 5A17DDC2
-P 8500 3650
-F 0 "D23" H 8500 3866 50  0000 C CNN
-F 1 "BAV70" H 8500 3775 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8500 3650 50  0001 C CNN
-F 3 "" H 8500 3650 50  0001 C CNN
-	1    8500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_x2_KCom_AAK D24
-U 1 1 5A17DDCC
-P 10100 3650
-F 0 "D24" H 10100 3866 50  0000 C CNN
-F 1 "BAV70" H 10100 3775 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 10100 3650 50  0001 C CNN
-F 3 "" H 10100 3650 50  0001 C CNN
-	1    10100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW44
-U 1 1 5A17DDD8
-P 7400 3650
-F 0 "SW44" H 7400 3935 50  0000 C CNN
-F 1 "Socket" H 7400 3844 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 7400 3850 50  0001 C CNN
-F 3 "" H 7400 3850 50  0001 C CNN
-	1    7400 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW45
-U 1 1 5A17DDDF
-P 8000 3650
-F 0 "SW45" H 8000 3935 50  0000 C CNN
-F 1 "Socket" H 8000 3844 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 8000 3850 50  0001 C CNN
-F 3 "" H 8000 3850 50  0001 C CNN
-	1    8000 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW46
-U 1 1 5A17DDE6
-P 9000 3650
-F 0 "SW46" H 9000 3935 50  0000 C CNN
-F 1 "Socket" H 9000 3844 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 9000 3850 50  0001 C CNN
-F 3 "" H 9000 3850 50  0001 C CNN
-	1    9000 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW47
-U 1 1 5A17DDED
-P 9600 3650
-F 0 "SW47" H 9600 3935 50  0000 C CNN
-F 1 "Socket" H 9600 3844 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 9600 3850 50  0001 C CNN
-F 3 "" H 9600 3850 50  0001 C CNN
-	1    9600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW48
-U 1 1 5A17DDF4
-P 10600 3650
-F 0 "SW48" H 10600 3935 50  0000 C CNN
-F 1 "Socket" H 10600 3844 50  0000 C CNN
-F 2 "sockets:Kailh-socket" H 10600 3850 50  0001 C CNN
-F 3 "" H 10600 3850 50  0001 C CNN
-	1    10600 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1255,25 +1233,25 @@ Text Label 1900 4375 0    60   ~ 0
 MOSI
 Text Label 1300 4375 2    60   ~ 0
 SCK
-Text Label 6050 3900 2    60   ~ 0
-row3
-Text Label 6050 2600 2    60   ~ 0
-row1
-Text Label 6050 1950 2    60   ~ 0
-row0
-Text Label 7650 1375 3    60   ~ 0
-col1
-Text Label 6150 1375 3    60   ~ 0
-col0
-Text Label 9250 1375 3    60   ~ 0
-col3
 Text Label 6050 3250 2    60   ~ 0
+row3
+Text Label 6050 1950 2    60   ~ 0
+row1
+Text Label 6050 1300 2    60   ~ 0
+row0
+Text Label 7650 725  3    60   ~ 0
+col1
+Text Label 6150 725  3    60   ~ 0
+col0
+Text Label 9250 725  3    60   ~ 0
+col3
+Text Label 6050 2600 2    60   ~ 0
 row2
-Text Label 7750 1375 3    60   ~ 0
+Text Label 7750 725  3    60   ~ 0
 col2
-Text Label 9350 1375 3    60   ~ 0
+Text Label 9350 725  3    60   ~ 0
 col4
-Text Label 10850 1375 3    60   ~ 0
+Text Label 10850 725  3    60   ~ 0
 col5
 Wire Wire Line
 	1350 4475 1300 4475
@@ -1290,11 +1268,41 @@ Dd-
 Text Label 1975 2100 0    60   ~ 0
 Dd+
 Wire Wire Line
+	6200 1050 6150 1050
+Wire Wire Line
+	6150 725  6150 1050
+Wire Wire Line
+	7650 725  7650 1050
+Wire Wire Line
+	7650 1050 7600 1050
+Wire Wire Line
+	6900 1250 6900 1300
+Wire Wire Line
+	6050 1300 6900 1300
+Wire Wire Line
+	7800 1050 7750 1050
+Wire Wire Line
+	7750 725  7750 1050
+Wire Wire Line
+	9250 725  9250 1050
+Wire Wire Line
+	9250 1050 9200 1050
+Wire Wire Line
+	8500 1300 8500 1250
+Wire Wire Line
+	9400 1050 9350 1050
+Wire Wire Line
+	9350 725  9350 1050
+Wire Wire Line
+	10850 725  10850 1050
+Wire Wire Line
+	10850 1050 10800 1050
+Wire Wire Line
+	10100 1300 10100 1250
+Connection ~ 6900 1300
+Connection ~ 8500 1300
+Wire Wire Line
 	6200 1700 6150 1700
-Wire Wire Line
-	6150 1375 6150 1700
-Wire Wire Line
-	7650 1375 7650 1700
 Wire Wire Line
 	7650 1700 7600 1700
 Wire Wire Line
@@ -1302,21 +1310,13 @@ Wire Wire Line
 Wire Wire Line
 	6050 1950 6900 1950
 Wire Wire Line
-	7800 1700 7750 1700
-Wire Wire Line
-	7750 1375 7750 1700
-Wire Wire Line
-	9250 1375 9250 1700
+	7750 1700 7800 1700
 Wire Wire Line
 	9250 1700 9200 1700
 Wire Wire Line
 	8500 1950 8500 1900
 Wire Wire Line
 	9400 1700 9350 1700
-Wire Wire Line
-	9350 1375 9350 1700
-Wire Wire Line
-	10850 1375 10850 1700
 Wire Wire Line
 	10850 1700 10800 1700
 Wire Wire Line
@@ -1346,7 +1346,7 @@ Wire Wire Line
 Connection ~ 6900 2600
 Connection ~ 8500 2600
 Wire Wire Line
-	6200 3000 6150 3000
+	6150 3000 6200 3000
 Wire Wire Line
 	7650 3000 7600 3000
 Wire Wire Line
@@ -1360,53 +1360,31 @@ Wire Wire Line
 Wire Wire Line
 	8500 3250 8500 3200
 Wire Wire Line
-	9400 3000 9350 3000
+	9350 3000 9400 3000
 Wire Wire Line
 	10850 3000 10800 3000
 Wire Wire Line
 	10100 3250 10100 3200
 Connection ~ 6900 3250
 Connection ~ 8500 3250
-Wire Wire Line
-	6150 3650 6200 3650
-Wire Wire Line
-	7650 3650 7600 3650
-Wire Wire Line
-	6900 3850 6900 3900
-Wire Wire Line
-	6050 3900 6900 3900
-Wire Wire Line
-	7750 3650 7800 3650
-Wire Wire Line
-	9250 3650 9200 3650
-Wire Wire Line
-	8500 3900 8500 3850
-Wire Wire Line
-	9350 3650 9400 3650
-Wire Wire Line
-	10850 3650 10800 3650
-Wire Wire Line
-	10100 3900 10100 3850
-Connection ~ 6900 3900
-Connection ~ 8500 3900
-Connection ~ 6150 3000
 Connection ~ 6150 2350
 Connection ~ 6150 1700
+Connection ~ 6150 1050
+Connection ~ 7650 1050
+Connection ~ 7750 1050
 Connection ~ 7650 1700
 Connection ~ 7750 1700
 Connection ~ 7650 2350
 Connection ~ 7750 2350
-Connection ~ 7650 3000
-Connection ~ 7750 3000
+Connection ~ 9250 1050
 Connection ~ 9250 1700
 Connection ~ 9250 2350
-Connection ~ 9250 3000
-Connection ~ 9350 3000
 Connection ~ 9350 2350
 Connection ~ 9350 1700
-Connection ~ 10850 3000
+Connection ~ 9350 1050
 Connection ~ 10850 2350
 Connection ~ 10850 1700
+Connection ~ 10850 1050
 Wire Wire Line
 	3075 1000 3075 900 
 Wire Wire Line
@@ -1438,6 +1416,10 @@ Wire Wire Line
 Wire Wire Line
 	3025 3600 3025 3700
 Wire Wire Line
+	6900 1300 8500 1300
+Wire Wire Line
+	8500 1300 10100 1300
+Wire Wire Line
 	6900 1950 8500 1950
 Wire Wire Line
 	8500 1950 10100 1950
@@ -1450,15 +1432,15 @@ Wire Wire Line
 Wire Wire Line
 	8500 3250 10100 3250
 Wire Wire Line
-	6900 3900 8500 3900
-Wire Wire Line
-	8500 3900 10100 3900
-Wire Wire Line
-	6150 3000 6150 3650
-Wire Wire Line
 	6150 2350 6150 3000
 Wire Wire Line
 	6150 1700 6150 2350
+Wire Wire Line
+	6150 1050 6150 1700
+Wire Wire Line
+	7650 1050 7650 1700
+Wire Wire Line
+	7750 1050 7750 1700
 Wire Wire Line
 	7650 1700 7650 2350
 Wire Wire Line
@@ -1468,27 +1450,23 @@ Wire Wire Line
 Wire Wire Line
 	7750 2350 7750 3000
 Wire Wire Line
-	7650 3000 7650 3650
-Wire Wire Line
-	7750 3000 7750 3650
+	9250 1050 9250 1700
 Wire Wire Line
 	9250 1700 9250 2350
 Wire Wire Line
 	9250 2350 9250 3000
 Wire Wire Line
-	9250 3000 9250 3650
-Wire Wire Line
-	9350 3000 9350 3650
-Wire Wire Line
 	9350 2350 9350 3000
 Wire Wire Line
 	9350 1700 9350 2350
 Wire Wire Line
-	10850 3000 10850 3650
+	9350 1050 9350 1700
 Wire Wire Line
 	10850 2350 10850 3000
 Wire Wire Line
 	10850 1700 10850 2350
+Wire Wire Line
+	10850 1050 10850 1700
 Wire Wire Line
 	2925 1000 3075 1000
 Wire Wire Line
@@ -1879,12 +1857,8 @@ WS2812B RGB\nUnderglow
 Wire Notes Line
 	5800 3950 10900 3950
 Wire Notes Line
-	10900 3950 10900 1200
-Wire Notes Line
-	10900 1200 5800 1200
-Wire Notes Line
-	5800 1200 5800 3950
-Text Notes 5825 1300 0    60   ~ 0
+	10900 550  5800 550 
+Text Notes 5825 650  0    60   ~ 0
 Matrix
 Text Label 4850 900  0    60   ~ 0
 PB0
@@ -2106,5 +2080,170 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 2925 2700 50  0001 C CNN
 F 3 "" H 2925 2700 50  0001 C CNN
 	1    2925 2700
 	0    1    1    0   
+$EndComp
+Wire Notes Line
+	10900 550  10900 3950
+Wire Notes Line
+	5800 3950 5800 550 
+$Comp
+L Device:D_x2_KCom_AAK D28
+U 1 1 5D64F586
+P 6900 3650
+F 0 "D28" H 6900 3866 50  0000 C CNN
+F 1 "BAV70" H 6900 3775 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 3650 50  0001 C CNN
+F 3 "" H 6900 3650 50  0001 C CNN
+	1    6900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 5D64F58C
+P 6400 3650
+F 0 "SW55" H 6400 3935 50  0000 C CNN
+F 1 "Socket" H 6400 3844 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 6400 3850 50  0001 C CNN
+F 3 "" H 6400 3850 50  0001 C CNN
+	1    6400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D29
+U 1 1 5D64F592
+P 8500 3650
+F 0 "D29" H 8500 3866 50  0000 C CNN
+F 1 "BAV70" H 8500 3775 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8500 3650 50  0001 C CNN
+F 3 "" H 8500 3650 50  0001 C CNN
+	1    8500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_x2_KCom_AAK D30
+U 1 1 5D64F598
+P 10100 3650
+F 0 "D30" H 10100 3866 50  0000 C CNN
+F 1 "BAV70" H 10100 3775 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 10100 3650 50  0001 C CNN
+F 3 "" H 10100 3650 50  0001 C CNN
+	1    10100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 5D64F59E
+P 7400 3650
+F 0 "SW56" H 7400 3935 50  0000 C CNN
+F 1 "Socket" H 7400 3844 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 7400 3850 50  0001 C CNN
+F 3 "" H 7400 3850 50  0001 C CNN
+	1    7400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 5D64F5A4
+P 8000 3650
+F 0 "SW57" H 8000 3935 50  0000 C CNN
+F 1 "Socket" H 8000 3844 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 8000 3850 50  0001 C CNN
+F 3 "" H 8000 3850 50  0001 C CNN
+	1    8000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 5D64F5AA
+P 9000 3650
+F 0 "SW58" H 9000 3935 50  0000 C CNN
+F 1 "Socket" H 9000 3844 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 9000 3850 50  0001 C CNN
+F 3 "" H 9000 3850 50  0001 C CNN
+	1    9000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 5D64F5B0
+P 9600 3650
+F 0 "SW59" H 9600 3935 50  0000 C CNN
+F 1 "Socket" H 9600 3844 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 9600 3850 50  0001 C CNN
+F 3 "" H 9600 3850 50  0001 C CNN
+	1    9600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 5D64F5B6
+P 10600 3650
+F 0 "SW60" H 10600 3935 50  0000 C CNN
+F 1 "Socket" H 10600 3844 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 10600 3850 50  0001 C CNN
+F 3 "" H 10600 3850 50  0001 C CNN
+	1    10600 3650
+	1    0    0    -1  
+$EndComp
+Text Label 6050 3900 2    60   ~ 0
+row4
+Wire Wire Line
+	6150 3650 6200 3650
+Wire Wire Line
+	7650 3650 7600 3650
+Wire Wire Line
+	6900 3850 6900 3900
+Wire Wire Line
+	6050 3900 6900 3900
+Wire Wire Line
+	7750 3650 7800 3650
+Wire Wire Line
+	9250 3650 9200 3650
+Wire Wire Line
+	8500 3900 8500 3850
+Wire Wire Line
+	9350 3650 9400 3650
+Wire Wire Line
+	10850 3650 10800 3650
+Wire Wire Line
+	10100 3900 10100 3850
+Connection ~ 6900 3900
+Connection ~ 8500 3900
+Wire Wire Line
+	6900 3900 8500 3900
+Wire Wire Line
+	8500 3900 10100 3900
+Wire Wire Line
+	6150 3000 6150 3650
+Wire Wire Line
+	7650 3000 7650 3650
+Wire Wire Line
+	7750 3000 7750 3650
+Wire Wire Line
+	9250 3000 9250 3650
+Wire Wire Line
+	9350 3000 9350 3650
+Wire Wire Line
+	10850 3000 10850 3650
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5A17DDD8
+P 7400 3000
+F 0 "SW50" H 7400 3285 50  0000 C CNN
+F 1 "Socket" H 7400 3194 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 7400 3200 50  0001 C CNN
+F 3 "" H 7400 3200 50  0001 C CNN
+	1    7400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5A17DD94
+P 8000 2350
+F 0 "SW45" H 8000 2635 50  0000 C CNN
+F 1 "Socket" H 8000 2544 50  0000 C CNN
+F 2 "sockets:Kailh-socket" H 8000 2550 50  0001 C CNN
+F 3 "" H 8000 2550 50  0001 C CNN
+	1    8000 2350
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
